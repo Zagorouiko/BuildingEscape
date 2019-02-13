@@ -73,5 +73,14 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-Intermediate/
-Content/
+#UNREAL generated files
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Saved
+*/Intermediate
+*/Content
+*_BuiltData.uasset
+BuildingEscape/Content/StarterContent
+
+*.VC.db
