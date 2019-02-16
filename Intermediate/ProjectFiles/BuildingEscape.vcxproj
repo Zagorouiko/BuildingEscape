@@ -508,7 +508,9 @@
     <None Include="..\..\Source\BuildingEscape\BuildingEscape.Build.cs" />
     <ClCompile Include="..\..\Source\BuildingEscape\BuildingEscape.cpp" />
     <ClInclude Include="..\..\Source\BuildingEscape\BuildingEscape.h" />
+    <ClCompile Include="..\..\Source\BuildingEscape\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\BuildingEscape\PositionReporter.cpp" />
+    <ClInclude Include="..\..\Source\BuildingEscape\OpenDoor.h" />
     <ClInclude Include="..\..\Source\BuildingEscape\PositionReporter.h" />
   </ItemGroup>
   <PropertyGroup>
