@@ -20,7 +20,7 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 	AActor* Owner = GetOwner();
 
-	FRotator NewRotation = FRotator(0.f, 60.f, 00.f);
+	FRotator NewRotation = FRotator(0.f, OpenAngle, 00.f);
 
 	Owner->SetActorRotation(NewRotation);
 	FString rotation = Owner->GetActorRotation().ToString();
